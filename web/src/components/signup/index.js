@@ -42,7 +42,8 @@ function Weather() {
                 password: values.password,
             })
                 .then((res) => {
-                    console.log("res: ", res.data);
+                    alert("res: ", res.data);
+                     history.push("/")
                 })
         }
     });
